@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PhishShield</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>PhishShield</h1>
+        <h2>Verify site legitimacy and detect scams</h2>
+        <input type="text" id="urlInput" placeholder="Enter URL">
+        <button onclick="checkUrl()">Check URL</button>
+        <p id="result"></p>
+        <div class="info">
+            <h3>How It Works?</h3>
+            <ol>
+                <li><strong>Enter Website URL</strong> – Users can paste a link they want to verify.</li>
+                <li><strong>Deep Security Analysis</strong> – The web app runs domain verification, SSL checks, blacklist scans, and AI-based risk assessment.</li>
+                <li><strong>AI Trust Score & Verdict</strong> – Displays a detailed phishing risk report with a trust score.</li>
+                <li><strong>User Reporting Feature</strong> – Allows users to report suspicious websites to strengthen security databases.</li>
+            </ol>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
